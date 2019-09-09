@@ -1,0 +1,254 @@
+* { 
+  margin: 0;
+  padding: 0;
+
+}
+
+.section-container {
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+.section-container > a {
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+    font-size:2em;    color: #FFC600;
+    text-align: center;
+}
+
+nav{
+  background-image:linear-gradient(#ffc600,#4C005A);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#Logo{
+  display: flex;
+  width: 25%;
+  height: 25%;
+  background-size: cover;
+  margin: 0;
+  align-items: flex-end;
+  display: flex
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: #4C005A;
+  align-items: initial;     
+  margin: 0;
+  font-size: 90%
+}
+
+nav a:hover {
+  background-color: #4C005A;
+  color: #ffc600;
+  margin: 0;
+  font-weight: bold
+}
+
+head {
+  display: flex
+}
+
+#user{
+    width: 50%;
+    height: 50%
+}
+/*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                FIM - NAV
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+main{
+  background: #4C005A
+}
+#Evento1{
+    background-image: url(img/show\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 90%;
+    margin: 10% 10% 0% 5%;
+    text-align: center;
+}
+
+#Evento1 p a{
+  color: #FFC600;
+  text-align: end;
+}
+
+
+p{
+    
+    padding: 2.5%;
+    text-align: end;
+    color: #FFC600;
+}
+
+p a:hover{
+    background-color: #4c005a;
+}
+
+#Evento2{
+  background-image: url(img/casamento.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 90%;
+  margin: 5% 10% 0% 5%;
+  text-align: center;
+}
+
+#Evento2 p a{
+color: #FFC600;
+text-align: end
+
+}
+
+
+h3{
+    padding: 5.5%;
+    text-align: end;
+    color: #FFC600;
+}
+
+/*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                Agenda
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+#agenda h1{
+  margin: 7% 0% 0% 0%;
+
+  text-align: center;
+}
+
+#agenda h2{
+  margin: 4% 0% 0% 0%;
+  color: #FFC600;
+  text-align: center;
+}
+.mês-ano {
+    padding: 5% 0 0% 0 ;
+    width: 100%;
+    text-align: center;
+    background-size: 100%;
+    font-size:150%;
+}
+
+.mês-ano ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.mês-ano ul li {
+    color: #FFC600;
+    font-size: 100%;
+    letter-spacing: 3%;
+    text-align: center;    
+}
+
+.dias-da-semana {
+    margin: 0;
+    padding: 1.5% 0% 1.5% 0%;
+    background:rgb(58, 58, 58);
+    height: 90%;
+    width: 90%;
+    margin: 2% 10% 0% 5%;
+    text-align: center;
+}
+
+.dias-da-semana li {
+    display: inline-block;
+    width: 13%;
+    color: #FFC600;
+    
+}
+
+.dias-do-mês {
+    padding: 2.5% 0% 2.5% 0%;
+    background: #FFC600;
+    height: 90%;
+    width: 90%;
+    margin: 0% 10% 0% 5%;
+
+}
+
+.dias-do-mês li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.2%;
+    text-align: center;
+    margin-bottom: 1%;
+    font-size:110%;
+    color: #4c005a;
+    padding: 1.5% 0 1.5% 0; 
+}
+
+.dias-do-mês li a {
+  color: #4C005A;
+  text-decoration: none;
+}
+
+.dias-do-mês p{
+  color: #4c005a;
+  background: red;
+  width: 22.5%;
+  margin: 5% 0% 0% 65%;
+  text-align: center
+}
+#ocupado{
+  color: #4c005a;
+  background: red;
+}
+/*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                Sobre
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#sobre h2{
+  color: #FFC600;
+  text-align: center;
+  margin:10% 0% 0% 0%
+}
+
+#sobre p{
+  font-size: 1.1em;
+  text-align: center;
+  color: #FFC600;
+}
+
+/*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                clientes
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#clientes{
+  color: #FFC600;
+  text-align: center;
+  cursor: pointer;
+  margin:2% 0% 0% 0%;
+  font-size: 1.5em;
+}
+#clientes h1{
+  margin: 10% 0 0 0;
+}
+#clientes li{
+  margin:2% 0% 0% 0%;
+}

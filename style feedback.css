@@ -1,0 +1,128 @@
+* { 
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .section-container {
+    margin: 0 auto;
+    max-width: 1360px;
+  }
+  
+  .section-container > a {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  h1 {
+      font-size:2em;    color: #FFC600;
+      text-align: center;
+  }
+  
+  nav{
+    background-image:linear-gradient(#ffc600,#4C005A);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #Logo{
+    display: flex;
+    width: 25%;
+    height: 25%;
+    background-size: cover;
+    margin: 0;
+    align-items: flex-end
+  }
+  
+  nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #4C005A;
+    align-items: initial;   
+      align-items: initial;   
+    align-items: initial;   
+    margin: 0;
+    font-size: 90%
+  }
+  
+  nav a:hover {
+    background-color: #4C005A;
+    color: #ffc600;
+    margin: 0;
+    font-weight: bold
+  }
+  
+  head {
+    display: flex
+  }
+
+  main{
+    background: #4C005A
+  }
+
+#Faq{
+    color: #FFC600;
+    text-align: center;
+    margin: 7.5% 0 0 0;
+}
+
+#Faq h2{
+    margin: 5% 0 0 0
+}
+
+label{
+    color: #FFC600;
+    position: relative
+}
+
+input:not([type="checkbox"]){
+    width: 90%;
+    padding: 0.5%;   
+    margin: 0 0% 5% 0%; 
+    border: 1px solid #FFC600;
+    text-align: center;
+}
+
+#obs p{
+    color: #FFC600;
+    margin: 10% 0 0 10%
+}
+
+#enviar{
+    width: 25%;
+    cursor: pointer; 
+    color: #4C005A; 
+    background: #FFC600;
+    text-align: center;
+    margin: 5% 0% 0% 40%;
+}
+
+
+#enviar a{
+    text-decoration: none;
+    font-size: 1.5em
+}
+
+#opiniao h1 {
+  margin: 10% 0% 10% 0% 
+}
+
+#Opiniao{
+    color: #FFC600;
+    text-align: center;
+    margin: 7.5% 0 0 0 
+}
+
+#Opiniao h2{
+    margin: 5% 0 0 0
+}

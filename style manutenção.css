@@ -1,0 +1,76 @@
+* { 
+    margin: 0;
+    padding: 0;
+    max-width: 1360px;
+    max height: 670px
+}
+
+.section-container {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.section-container > a {
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    background-image:linear-gradient(#ffc600,#4C005A);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#Logo{
+    display: flex;
+    width: 25%;
+    height: 25%;
+    background-size: cover;
+    margin: 0;
+    align-items: flex-end
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #4C005A;
+    align-items: initial;   
+    margin: 0;
+    font-size: 90%
+}
+
+nav a:hover {
+    background-color: #4C005A;
+    color: #ffc600;
+    margin: 0;
+    font-weight: bold
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                                                FIM - NAV
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+h1 {
+    text-align: center
+}
+
+main{
+    background: #4C005A
+
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    margin: 0% 0% 0% 20%
+}
