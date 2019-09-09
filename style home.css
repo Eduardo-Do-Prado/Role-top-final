@@ -4,6 +4,11 @@
 
 }
 
+@font-face{
+  font-family: "Bayou Cowboy Regular";
+  src: url('fonte/bayoc___-webfont.woff') format('woff')
+}
+
 .section-container {
   margin: 0 auto;
   max-width: 1360px;
@@ -17,7 +22,8 @@
 }
 
 h1 {
-    font-size:2em;    color: #FFC600;
+    font-size:2em;
+    color: #FFC600;
     text-align: center;
 }
 
@@ -32,9 +38,7 @@ nav{
   display: flex;
   width: 25%;
   height: 25%;
-  background-size: cover;
-  margin: 0;
-  align-items: flex-end
+  margin: 0% 0% 0% 0%
 }
 
 nav ul{
@@ -48,9 +52,6 @@ nav ul{
 nav a{
   text-decoration: none;
   color: #4C005A;
-  align-items: initial;   
-    align-items: initial;   
-  align-items: initial;   
   margin: 0;
   font-size: 90%
 }
@@ -60,10 +61,6 @@ nav a:hover {
   color: #ffc600;
   margin: 0;
   font-weight: bold
-}
-
-head {
-  display: flex
 }
 
 /*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
