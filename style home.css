@@ -4,10 +4,6 @@
 
 }
 
-@font-face{
-  font-family: "Bayou Cowboy Regular";
-  src: url('fonte/bayoc___-webfont.woff') format('woff')
-}
 
 .section-container {
   margin: 0 auto;
@@ -36,9 +32,8 @@ nav{
 
 #Logo{
   display: flex;
-  width: 25%;
-  height: 25%;
-  margin: 0% 0% 0% 0%
+  width: 20%;
+  height: 20%;
 }
 
 nav ul{
@@ -53,14 +48,62 @@ nav a{
   text-decoration: none;
   color: #4C005A;
   margin: 0;
-  font-size: 90%
+  font-size: 100%
 }
 
+nav a.bt-common-menu.active{
+  text-decoration: none;
+  color: #4C005A;
+  font-size: 100%;
+  font-weight: bold
+}
+
+
 nav a:hover {
-  background-color: #4C005A;
   color: #ffc600;
   margin: 0;
   font-weight: bold
+}
+
+nav #bt-mobile-menu{
+  display: none
+}
+
+@media (max-width: 625px) {
+
+  h1 {
+    padding: 3em 0 0 0;
+}
+
+#banner p {
+    font-size: 0.8em;
+}
+
+#banner p > strong {
+    -webkit-text-stroke: 2px #ffcc00;
+}
+
+nav #bt-mobile-menu {
+    display: block;
+}
+
+nav .bt-common-menu {
+    display: none;
+}
+
+nav .bt-common-menu.active {
+    display: block;
+}
+
+nav ul.mobile-mode {
+    display: flex;
+    flex-direction: column;
+}
+
+  nav a {
+    color: #FFC600;
+  }
+
 }
 
 /*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -232,11 +275,12 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 /*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                                                 footer
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
-
 footer{
   background-image:linear-gradient(#4C005A,#FFC600);
+  text-align: center;
 }
 #Logo-footer{
   width: 20%;
-  height: 20%
+  height: 20%;
+  margin: 10% 0% 0% 0%;
 }
