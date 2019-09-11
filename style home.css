@@ -4,6 +4,16 @@
 
 }
 
+@font-face {
+  font-family: 'bayou_cowboyregular';
+  src: url(Bayoc/bayoc___-webfont.woff2) format('woff2'),
+       url(Bayoc/bayoc___-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
 
 .section-container {
   margin: 0 auto;
@@ -21,6 +31,7 @@ h1 {
     font-size:2em;
     color: #FFC600;
     text-align: center;
+    font-family: 'bayou_cowboyregular'; 
 }
 
 nav{
@@ -103,7 +114,9 @@ nav ul.mobile-mode {
   nav a {
     color: #FFC600;
   }
-
+  img#user {
+    display: none
+  }
 }
 
 /*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -280,6 +293,12 @@ footer{
   text-align: center;
 }
 #Logo-footer{
+  width: 20%;
+  height: 20%;
+  margin: 10% 0% 0% 0%;
+}
+
+iframe{
   width: 20%;
   height: 20%;
   margin: 10% 0% 0% 0%;

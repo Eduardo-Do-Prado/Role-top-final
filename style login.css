@@ -1,63 +1,118 @@
 * { 
-    margin: 0;
-    padding: 0;
-  
-  }
-  
-  
-  .section-container {
-    margin: 0 auto;
-    max-width: 1360px;
-  }
-  
-  .section-container > a {
-    display: block;
-    padding: 20px 0;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
+  margin: 0;
+  padding: 0;
+
+}
+@font-face {
+  font-family: 'bayou_cowboyregular';
+  src: url(Bayoc/bayoc___-webfont.woff2) format('woff2'),
+       url(Bayoc/bayoc___-webfont.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.section-container {
+  margin: 0 auto;
+  max-width: 1360px;
+}
+
+.section-container > a {
+  display: block;
+  padding: 20px 0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+    font-size:2em;
+    color: #FFC600;
+    text-align: center;
+    font-family: 'bayou_cowboyregular'
+}
+
+nav{
+  background-image:linear-gradient(#ffc600,#4C005A);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#Logo{
+  display: flex;
+  width: 20%;
+  height: 20%;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: #4C005A;
+  margin: 0;
+  font-size: 100%
+}
+
+nav a.bt-common-menu.active{
+  text-decoration: none;
+  color: #4C005A;
+  font-size: 100%;
+  font-weight: bold
+}
+
+
+nav a:hover {
+  color: #ffc600;
+  margin: 0;
+  font-weight: bold
+}
+
+nav #bt-mobile-menu{
+  display: none
+}
+
+@media (max-width: 625px) {
+
   h1 {
-      font-size:2em;
-      color: #FFC600;
-      text-align: center;
-  }
-  
-  nav{
-    background-image:linear-gradient(#ffc600,#4C005A);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-  }
-  
-  #Logo{
+    padding: 3em 0 0 0;
+}
+
+#banner p {
+    font-size: 0.8em;
+}
+
+#banner p > strong {
+    -webkit-text-stroke: 2px #ffcc00;
+}
+
+nav #bt-mobile-menu {
+    display: block;
+}
+
+nav .bt-common-menu {
+    display: none;
+}
+
+nav .bt-common-menu.active {
+    display: block;
+}
+
+nav ul.mobile-mode {
     display: flex;
-    width: 20%;
-    height: 20%;
+    flex-direction: column;
+}
+
+  nav a {
+    color: #FFC600;
   }
-  
-  nav ul{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0;
-  }
-  
-  nav a{
-    text-decoration: none;
-    color: #4C005A;
-    margin: 0;
-    font-size: 90%
-  }
-  
-  nav a:hover {
-    background-color: #4C005A;
-    color: #ffc600;
-    margin: 0;
-    font-weight: bold
-  }
-  
+
+}
   /*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                                                   FIM - NAV
   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
@@ -65,19 +120,11 @@ main{
     background: #4C005A
   }
   
-#Login {
-    
+#Login h1{
     top: 0px;
     width: 88%;   
-    padding: 2% 6% 60px 6%;
+    padding: 20% 6% 10% 6%;
     background: #4C005A;
-}
-
-.content{
-    width: 100%;
-    min-height: 50%;    
-    margin: 0 auto;
-    position: relative;   
 }
 
 h1{
@@ -88,16 +135,16 @@ h1{
 
 label{
     color: #FFC600;
-    position: relative
+    position: relative;
 }
 
 input:not([type="checkbox"]){
     width: 80%;
     height: 10%;
     margin-top: 2.5%;
-    padding: 0.5%;    
+    padding: 2.5%;    
     border: 1px solid #FFC600;
-    margin: 5% 0% 0% 10%;
+    margin: 5% 0% 5% 7.5%;
     text-align: center
 }
 
@@ -107,19 +154,18 @@ input[type="submit"]{
     color: #4C005A; 
     background: #FFC600;
     text-align: center;
-    margin: 5% 50% 0% 27%
+    margin: 5% 50% 5% 25%
 }
 
 .link{
     color: #ffc600;
     height: 100%;
     text-align: center;
-    margin: 5% 0% 0% 0%
 }
 
 .link a {
     color: #FFC600;
-
+    margin: 5% 0% 5% 0%;
 }
 
 #enviar{
@@ -128,19 +174,15 @@ input[type="submit"]{
     color: #4C005A; 
     background: #FFC600;
     text-align: center;
-    margin: 5% 0% 5% 38%;
+    margin: 5% 0% 12.5% 38%;
 }
 
 
-#enviar a{
+#enviar p a{
     text-decoration: none;
-    font-size: 1.5em
+    font-size: 1.5em;    
+    margin: 5% 0% 10% 0%
   }
-
-  @media {
-      
-  }
-
   
 /*#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                                                 footer
